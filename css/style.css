@@ -4,18 +4,6 @@ Color red #e2001a
 Color black #03050f
 Color text #58595b
 *********************/
-/*@media screen and (max-width: 770px) {
-  .wrapper {
-    max-width: 47.5rem;
-  }
-  .container {
-    width: 50%;
-  }
-  .main-aside {
-    width: 50%;
-    float: right;
-  }
-}*/
 
 /*****************************************
 GENERAL
@@ -41,10 +29,6 @@ a {
   color: white;
   text-decoration: none;
 }
-
-/*img {
-  vertical-align: bottom;
-}*/
 
 /***************************************
 LAYOUT
@@ -382,7 +366,6 @@ FOOTER
 
 .info-footer {
   color: white;
-  /*height: 28rem;*/
   background: #e2001a;
 }
 
