@@ -4,6 +4,18 @@ Color red #e2001a
 Color black #03050f
 Color text #58595b
 *********************/
+/*@media screen and (max-width: 770px) {
+  .wrapper {
+    max-width: 47.5rem;
+  }
+  .container {
+    width: 50%;
+  }
+  .main-aside {
+    width: 50%;
+    float: right;
+  }
+}*/
 
 /*****************************************
 GENERAL
@@ -41,24 +53,24 @@ LAYOUT
 
 .wrapper {
   width: 90%;
-	max-width: 71.25rem;
+	/*max-width: 1140px;*/
+  max-width: 71.25rem;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.main {
-  max-width:73.125rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .container {
-  width: 68.5%;
+  width: 65.8%;
   float: left;
 }
 
 .main-aside {
-  width: 31.5%;
+  width: 30%;
+  margin-left: 1.875rem;
+  float: left;
+}
+
+.main-events {
   float: left;
 }
 
@@ -210,7 +222,7 @@ IMG
 }
 
 .img-aplication {
-  margin-top: .6rem;
+
   width: 19.6875rem;
   height: 16.25rem;
   background-image: url(../img/Aplicacion.png);
@@ -398,11 +410,13 @@ ENLACE FOOTER
 
 .enlace-follow {
   font-size: 2.188em;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .contacto-footer {
   margin-top: 5.5rem;
+  text-transform: uppercase;
 }
 
 .contact-text {
@@ -414,17 +428,14 @@ ENLACE FOOTER
 
 .nav {
   margin-top: 5.5rem;
-  margin-right: 4rem;
+  margin-right: 3rem;
+  margin-left: 1.2rem;
   float: left;
 }
 
 .nav-footer a {
   padding: 0;
   display: block;
-}
-
-.nav h3 {
-  font-size: 1.7em;
 }
 
 .footer-description {
@@ -446,11 +457,51 @@ CLEAR FLOAT
   clear: both;
 }
 
-/*@media screen and (min-width: 760px){
-  .main  {
-    max-width: 47.5rem;
+@media screen and (max-width: 1266px){
+  .wrapper {
+    /*max-width: 770px;*/
+    max-width: 48.125rem;
   }
+
+  .event {
+    margin-right: 0;
+    float: none;
+  }
+
   .container {
-    width: 33%;
+    width: 50%;
   }
-}*/
+
+  .main-aside {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .enlace {
+    width: auto;
+  }
+
+  .enlace-text {
+    margin-right: 0;
+  }
+
+  .app-footer {
+    float: right;
+  }
+
+  .contacto-footer {
+    margin-top: 2rem;
+  }
+
+  .nav {
+    margin-right: 0;
+  }
+
+  .img-aplication {
+    margin-bottom: 1.2rem;
+  }
+
+  .noticia-mas {
+    margin-left: 4.6rem;
+  }
+}
