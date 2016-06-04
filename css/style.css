@@ -459,13 +459,12 @@ CLEAR FLOAT
 
 @media screen and (max-width: 1266px){
   .wrapper {
-    /*max-width: 770px;*/
+    width: 100%;
     max-width: 48.125rem;
   }
 
   .event {
     margin-right: 0;
-    float: none;
   }
 
   .container {
@@ -499,6 +498,10 @@ CLEAR FLOAT
 
   .img-aplication {
     margin-bottom: 1.2rem;
+  }
+
+  .noticia {
+    margin-right: 0;
   }
 
   .noticia-mas {
