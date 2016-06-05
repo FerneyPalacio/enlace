@@ -36,7 +36,7 @@ LAYOUT
 
 
 .wrapper {
-  width: 90%;
+  width: 100%;
 	/*max-width: 1140px;*/
   max-width: 71.25rem;
 	margin-left: auto;
@@ -68,7 +68,7 @@ ICON FONTASTIC
 
 
 [class*="icon"]::before {
-  font-size: 1.125em;
+  font-size: 1em;
 	position: relative;
 	top: .2rem;
 }
@@ -89,7 +89,7 @@ CONTACT TOP
 
 
 .contact-top p {
-  font-size: 1.125em;
+  font-size: 1.4em;
   color: white;
   padding: 0.6rem 0 0;
 }
@@ -141,22 +141,110 @@ RADIO
 /**************************************
 MENU
 **************************************/
-
-
-.logo {
-	display: inline-block;
-	margin: 0.625rem 0;
-}
-
 .nav-main {
-	float: right;
-	padding-top:2.1rem;
+  position: relative;
+  width: 100%;
+  z-index: 2
 }
 
-.nav-main a {
+#logo {
+  background: url(../img/Logo.png) no-repeat 0 0;
+  display: block;
+  float: left;
+  width: 11.8125rem;
+  height: 4.0625rem;
+  margin: 1.2rem 0;
+  text-indent: -624.9375rem;
+}
+
+/*#menu {
+	float: right;
+	padding-top: 1rem;
+}
+
+#nav-main ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+#nav-main a {
   margin-left: .6rem;
 }
 
+  #nav-main li a:hover {
+    color: #e2001a;
+  }
+
+
+    Estilos #nav-mobile y lo ocultamos
+#nav-mobile{
+    display: none;
+    background: url(../img/nav.png) no-repeat center center;
+    float: right;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    opacity: .6;
+
+}
+  Agregaremos esta clase a #nav-mobile, cuando el menu mobile haya sido desplegado
+  #nav-mobile.nav-active{
+      opacity: 1;
+  }*/
+
+
+/* Nuestro nav con id #menu lo flotaremos a la derecha*/
+#menu {
+  float: right;
+}
+
+  /* Quitamos estilos por defecto de el tag UL */
+  #menu ul{
+      /*list-style: none;*/
+      /*font-size: 14px;*/
+  }
+
+      /* Centramos y ponemos los textos en mayuscula */
+      #menu li{
+         display: block;
+         float: left;
+         /*text-transform: uppercase;*/
+         /*text-align: center;*/
+      }
+
+          /* Damos estilo a nuestros enlaces */
+          #menu li a{
+              display: block;
+              /*color: #fff;*/
+              /*text-decoration: none;*/
+              /*height: 60px;*/
+              line-height: 3.75rem;
+              padding-left: 1rem;
+          }
+          #menu li a:hover{
+              /*background: #151a1e;*/
+              color: #e2001a;
+          }
+
+  /* Estilos #nav-mobile y lo ocultamos */
+  #nav-mobile{
+      display: none;
+      background: url(../img/nav.png) no-repeat center center;
+      float: right;
+      width: 3.75rem;
+      height: 3.75rem;
+      position: absolute;
+      right: 0;
+      top:0;
+      margin-top: 1.2rem;
+      /*opacity: .6;*/
+
+  }
+      /* Agregaremos esta clase a #nav-mobile, cuando el menu mobile haya sido desplegado */
+      #nav-mobile.nav-active{
+          opacity: 1;
+      }
 /**************************************
 HERO
 **************************************/
@@ -388,7 +476,7 @@ ENLACE FOOTER
 .enlace-text {
   margin-top: 1.25rem;
   margin-right: 3rem;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 .enlace-follow {
@@ -406,6 +494,7 @@ ENLACE FOOTER
   margin-top: .6rem;
   margin-right: 2rem;
   line-height: 2em;
+  text-transform: none;
 
 }
 
@@ -440,7 +529,7 @@ CLEAR FLOAT
   clear: both;
 }
 
-@media screen and (max-width: 1266px){
+@media screen and (max-width: 1200px){
   .wrapper {
     width: 100%;
     max-width: 48.125rem;
@@ -490,4 +579,53 @@ CLEAR FLOAT
   .noticia-mas {
     margin-left: 4.6rem;
   }
+
+  /* mostramos #nav-mobile */
+  #nav-mobile{ display: block; }
+
+  /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo  */
+  #menu{
+      width: 100%;
+      float: none;
+      padding-top: 3.75rem;
+  }
+      /* Convertimos nuestra lista de enlaces en un menú horizontal */
+      #menu ul{
+          /*-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+          -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+          box-shadow: 0 1px 2px rgba(0,0,0,.5);*/
+          max-height: 0;
+          overflow: hidden;
+      }
+          /* estilos para los LI del menu */
+          #menu li{
+              /*background: #33363b;*/
+              border-bottom: 1px solid #282b30;
+              float: none;
+          }
+
+          /* Quitamos el borde del ultimo item del menú */
+          #menu li:last-child{ border-bottom: 0;}
+              #menu li a{
+                  padding: 0.9375rem 0;
+                  height: auto;
+                  line-height: normal;
+              }
+              #menu li a:hover{background:#2a2d33}
+
+      /* Agregamos una animación al despligue del menú */
+      #menu ul.open-menu{
+          width: 100%;
+          max-height: 25rem;
+          -webkit-transition: max-height .4s;
+          -moz-transition: max-height .4s;
+          -ms-transition: max-height .4s;
+          -o-transition: max-height .4s;
+          transition: max-height .4s;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+
+
 }

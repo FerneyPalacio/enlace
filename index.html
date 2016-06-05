@@ -9,7 +9,8 @@
 
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+    <!-- <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     <!-- FONT
@@ -21,6 +22,14 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- INTERNET EXPLORER
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- [if (gte IE 6)&(lte IE 8)]>
+  		<script type="text/javascript" src="js/html5shiv.min.js"></script>
+  		<script type="text/javascript" src="js/selectivizr-min.js"></script>
+  	<![endif]-->
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -81,23 +90,35 @@
       <!-- MENU
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <div class="wrapper">
-        <!-- LOGO
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <a href="#">
-          <figure class="logo">
-            <img src="img/Logo.png" alt="Logo Enlacehiphop" >
-          </figure>
-        </a>
-        <!-- MENU NAV
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <nav class="nav-main">
-          <a href="#">Inicio</a>
-          <a href="#">Programacion</a>
-          <a href="#">Noticias</a>
-          <a href="#">Al aire</a>
-          <a href="#">Eventos</a>
-          <a href="#">Contacto</a>
-        </nav>
+        <div class="nav-main">
+
+          <!-- LOGO
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <a href="#" id="logo">Logo enlacehiphop</a>
+          <!-- MENU NAV
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <nav id="menu"><a class="nav-mobile" id="nav-mobile" href="#"></a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Programacion</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Al aire</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <nav>
+            <h2 class="navheader slide-trigger"><span></span></h2>
+            <ul class="navigation">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Programación</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Al aire</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav> -->
       </div>
       <!-- HERO
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -412,5 +433,9 @@
         </div>
       </section>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/rem.min.js" ></script>
+
   </body>
 </html>
