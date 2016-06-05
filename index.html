@@ -40,26 +40,26 @@
     <header>
       <!-- TOP HEADER fondo contact
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <div class="top-header">
-        <!-- CONTACT TOP
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <!-- <div class="top-header">
+         CONTACT TOP
+        ––––––––––––––––––––––––––––––––––––––––––––––––––
         <section class="contact-top wrapper">
-          <!-- CONTACT TOP NUMERO
-          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+           CONTACT TOP NUMERO
+          ––––––––––––––––––––––––––––––––––––––––––––––––––
           <article class="contact-number">
             <p>
               <i class="icon-mobile"></i> 300 269 78 36
             </p>
           </article>
-          <!-- CONTACT TOP REDES
-          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+           CONTACT TOP REDES
+          ––––––––––––––––––––––––––––––––––––––––––––––––––
           <article class="contact-follow">
             <p>
               Síguenos en: <i class="icon-facebook"></i> <i class="icon-instagram"></i> <i class="icon-tunein"></i> <i class="icon-twitter"></i>
             </p>
           </article>
         </section>
-      </div>
+      </div> -->
       <!-- RADIO
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <div class="main-radio">
@@ -90,23 +90,35 @@
       <!-- MENU
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <div class="wrapper">
-        <!-- LOGO
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <a href="#">
-          <figure class="logo">
-            <img src="img/Logo.png" alt="Logo Enlacehiphop" >
-          </figure>
-        </a>
-        <!-- MENU NAV
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <nav class="nav-main">
-          <a href="#">Inicio</a>
-          <a href="#">Programacion</a>
-          <a href="#">Noticias</a>
-          <a href="#">Al aire</a>
-          <a href="#">Eventos</a>
-          <a href="#">Contacto</a>
-        </nav>
+        <div class="nav-main">
+
+          <!-- LOGO
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <a href="#" id="logo">Logo enlacehiphop</a>
+          <!-- MENU NAV
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <nav id="menu"><a class="nav-mobile" id="nav-mobile" href="#"></a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Programacion</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Al aire</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <nav>
+            <h2 class="navheader slide-trigger"><span></span></h2>
+            <ul class="navigation">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Programación</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Al aire</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav> -->
       </div>
       <!-- HERO
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -421,7 +433,8 @@
         </div>
       </section>
     </footer>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/rem.min.js" ></script>
 
   </body>
