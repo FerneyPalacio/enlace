@@ -79,7 +79,8 @@ TOP HEADER
 
 
 .top-header {
-  height: 3.125rem;
+  max-width: 100%;
+  height: auto;
   background: #e2001a;
 }
 
@@ -141,6 +142,8 @@ RADIO
 /**************************************
 MENU
 **************************************/
+
+
 .nav-main {
   position: relative;
   width: 100%;
@@ -157,49 +160,12 @@ MENU
   text-indent: -624.9375rem;
 }
 
-/*#menu {
-	float: right;
-	padding-top: 1rem;
-}
 
-#nav-main ul li {
-  display: inline-block;
-  list-style: none;
-}
-
-#nav-main a {
-  margin-left: .6rem;
-}
-
-  #nav-main li a:hover {
-    color: #e2001a;
-  }
-
-
-    Estilos #nav-mobile y lo ocultamos
-#nav-mobile{
-    display: none;
-    background: url(../img/nav.png) no-repeat center center;
-    float: right;
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    right: 0;
-    opacity: .6;
-
-}
-  Agregaremos esta clase a #nav-mobile, cuando el menu mobile haya sido desplegado
-  #nav-mobile.nav-active{
-      opacity: 1;
-  }*/
-
-
-/* Nuestro nav con id #menu lo flotaremos a la derecha*/
 #menu {
   float: right;
 }
 
-  /* Quitamos estilos por defecto de el tag UL */
+
   #menu ul{
       /*list-style: none;*/
       /*font-size: 14px;*/
@@ -535,17 +501,18 @@ CLEAR FLOAT
     max-width: 48.125rem;
   }
 
-  .event {
+  /*.event {
     margin-right: 0;
-  }
+  }*/
 
   .container {
-    width: 50%;
+    width: 100%;
   }
 
   .main-aside {
-    width: 50%;
-    margin-left: 0;
+    display: none;
+    /*width: 50%;
+    margin-left: 0;*/
   }
 
   .enlace {
@@ -572,13 +539,13 @@ CLEAR FLOAT
     margin-bottom: 1.2rem;
   }
 
-  .noticia {
+  /*.noticia {
     margin-right: 0;
-  }
+  }*/
 
-  .noticia-mas {
+  /*.noticia-mas {
     margin-left: 4.6rem;
-  }
+  }*/
 
   /* mostramos #nav-mobile */
   #nav-mobile{ display: block; }
