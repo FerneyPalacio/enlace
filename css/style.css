@@ -611,7 +611,9 @@ CLEAR FLOAT
                   height: auto;
                   line-height: normal;
               }
-              #menu li a:hover{background:#2a2d33}
+              #menu li a:hover{
+                color: #e2001a;
+              }
 
       /* Agregamos una animación al despligue del menú */
       #menu ul.open-menu{
