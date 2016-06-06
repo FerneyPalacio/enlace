@@ -65,18 +65,6 @@ LAYOUT
   float: left;
 }
 
-/*************************************
-ICON FONTASTIC
-*************************************/
-
-
-/*[class*="icon"]::before {
-  font-size: 1.4em;
-	position: relative;
-  margin-left: 0.375rem;
-}*/
-
-
 /***************************************
 TOP HEADER
 ***************************************/
@@ -288,6 +276,7 @@ IMG
   margin-top: 0.9375rem;
   background-image: url(../img/logo_enlace.png);
 }
+
 
 /**************************************
 EVENTOS
@@ -529,6 +518,34 @@ CLEAR FLOAT
   clear: both;
 }
 
+/*************************************
+PROGRAMACION PAGE
+*************************************/
+.main-p {
+  float: left;
+}
+
+.container-p {
+  width: 65.8%;
+  float: left;
+}
+
+.eventos-p {
+  margin-top: 0;
+}
+
+.noticias-p {
+  margin-bottom: 2.3rem;
+}
+
+.image-p {
+  height: auto;
+}
+
+/*************************************
+RESPONSIVE
+*************************************/
+
 @media screen and (max-width: 1200px){
   .wrapper {
     width: 100%;
@@ -597,6 +614,10 @@ CLEAR FLOAT
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .main-p {
+    float: none;
   }
 
   .follow {
@@ -672,6 +693,11 @@ CLEAR FLOAT
     margin-right: 0;
   }
 
+  /*PROGRAMACION */
+  .noticias-p {
+    float: none;
+  }
+
   .noticia-text {
     width: 100%;
   }
@@ -745,4 +771,9 @@ CLEAR FLOAT
   .audio-online {
     font-size: 1.8em;
   }
+
+  .eventos-p {
+    font-size: 1em;
+  }
+
 }
