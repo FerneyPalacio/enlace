@@ -765,6 +765,11 @@ RESPONSIVE
   .online-back {
     margin-left: .01rem;
   }
+
+  .eventos-p {
+    font-size: 1em;
+  }
+  
 }
 
 @media only screen and (max-width: 350px) {
@@ -772,8 +777,6 @@ RESPONSIVE
     font-size: 1.8em;
   }
 
-  .eventos-p {
-    font-size: 1em;
-  }
+
 
 }
