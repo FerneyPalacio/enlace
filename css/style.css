@@ -1,6 +1,6 @@
 /*********************
 COLOR
-Color red #e2001a
+Color red #e2001a - #d80019 - #cb0017
 Color black #03050f
 Color text #58595b
 *********************/
@@ -73,7 +73,7 @@ TOP HEADER
 .top-header {
   max-width: 100%;
   height: 2.1875rem;
-  background: #e2001a;
+  background: #d80019 ;
 }
 
 /**************************************
@@ -121,7 +121,7 @@ RADIO
 
 
 .main-radio {
-  border-bottom: 3px solid #e2001a;
+  border-bottom: 3px solid #d80019 ;
 }
 
 .audio-online {
@@ -133,7 +133,7 @@ RADIO
 }
 
 .listen-now {
-	color: #e2001a;
+	color: #d80019 ;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	letter-spacing: 1.2rem;
@@ -166,7 +166,7 @@ MENU
 }
 
 .selectd {
-  color: #e2001a;
+  color: #d80019 ;
 }
 
 #logo {
@@ -198,7 +198,7 @@ MENU
               padding-left: 1rem;
           }
           #menu li a:hover{
-              color: #e2001a;
+              color: #d80019 ;
           }
 
   /* Estilos #nav-mobile y lo ocultamos */
@@ -221,10 +221,10 @@ MENU
 HERO
 **************************************/
 
-
-.hero-header {
-	height: auto;
-	width: 100%;
+#slidy-container {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
 }
 
 /**************************************
@@ -262,7 +262,7 @@ IMG
 .img-cover {
   background-image: url(../img/cover.png);
   display: inline-block;
-  border: .1rem solid #e2001a;
+  border: .1rem solid #d80019 ;
 }
 
 .img-aplication {
@@ -292,7 +292,7 @@ EVENTOS
 
 .eventos span {
   width: 4.375rem;
-  border-bottom: thin solid #e2001a;
+  border-bottom: thin solid #d80019 ;
   display:block;
 }
 
@@ -319,7 +319,7 @@ EVENTOS
 	font-weight: 600;
 	width: 9.0625rem;
 	height: 3.75rem;
-	background: #e2001a;
+	background: #d80019 ;
 	padding: 0.7rem;
   display: inline-block;
 	text-align: center;
@@ -379,7 +379,7 @@ NOTICIAS
   text-align: center;
   padding: .3em;
   margin-top: 1.5625rem;
-  background: #e2001a;
+  background: #d80019 ;
 }
 
 .noticia-mas {
@@ -394,7 +394,7 @@ NOTICIAS
   margin-left: 17.7rem;
   margin-top: 2rem;
   margin-bottom: 3.125rem;
-  background: #e2001a;
+  background: #d80019 ;
 }
 
 /**************************************
@@ -437,7 +437,7 @@ FOOTER
 
 .info-footer {
   color: white;
-  background: #e2001a;
+  background: #d80019 ;
 }
 
 .copy-footer {
@@ -695,7 +695,7 @@ RESPONSIVE
                   line-height: normal;
               }
               #menu li a:hover{
-                color: #e2001a;
+                color: #d80019 ;
               }
 
       /* Agregamos una animación al despligue del menú */

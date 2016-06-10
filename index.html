@@ -78,7 +78,7 @@
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <div class="main-radio">
           <section class="wrapper">
-            <a href="online.html"><div>
+            <a href="radio.html" class="popup"><div>
               <!-- TEXT RADIO AUDIO EN VIVO
               –––––––––––––––––––––––––––––––––––––––––––––––––– -->
               <article class="audio-online">
@@ -129,9 +129,14 @@
 
       <!-- HERO
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <figure class="wrapper">
-        <a href="evento.html"><img src="img/banner.png" alt="Banner evento" class="hero-header"></a>
-      </figure>
+      <div id="slidy-container" class="wrapper">
+        <figure id="slidy">
+           <img src="img/banner.png">
+           <a href="evento.html"><img src="img/banner1.png"></a>
+           <img src="img/banner.png" alt="Photograph looking through Mesa Arch at a sunrise in Moab, Utah, taken by Krasimir Ganchev" data-caption="Mesa Arch sunrise, Moab, Utah">
+           <img src="img/banner1.png" alt="Photograph of wave rock formations in Canyonlands National Park, Arizona, taken by Vanessa Kay" data-caption="Canyonlands, Arizona">
+        </figure>
+      </div>
     </header>
 
 
@@ -375,8 +380,26 @@
               <header class="eventos">
                 <h2>Noticias <span></span></h2>
               </header>
+
               <!-- NOTICIA_ASIDE
               –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+              <section class="noticia">
+                <a href="noticia.html"><figure class="img-noticia image"></figure></a>
+                <article class="noticia-text">
+                  <a href="noticia.html"><h3>Michael Jordan's Son Is Opening His Own Sneaker Store</h3></a>
+                  <article class="noticia-fragmento">
+                    <p>
+                      Michael Jordan’s son may not have succeeded in following his father’s footsteps to the NBA, but he still has the sneaker industry.
+                    </p>
+                  </article>
+                  <article class="noticia-button">
+                    <a href="noticia.html"><p>
+                      Leer más...
+                    </p></a>
+                  </article>
+                </article>
+              </section>
+
               <section class="noticia">
                 <a href="noticia.html"><figure class="img-noticia image"></figure></a>
                 <article class="noticia-text">
@@ -453,6 +476,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/rem.min.js" ></script>
+    <script src="js/cssslidy.js"></script>
+    <script> cssSlidy(); </script>
 
+    </script>
   </body>
 </html>
