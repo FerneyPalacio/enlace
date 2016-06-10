@@ -1,6 +1,6 @@
 /*********************
 COLOR
-Color red #e2001a - #d80019 - #cb0017
+Color red #e2001a - #d80019 - #cb0017 #A40007
 Color black #03050f
 Color text #58595b
 *********************/
@@ -166,7 +166,7 @@ MENU
 }
 
 .selectd {
-  color: #d80019 ;
+  color: #A40007 ;
 }
 
 #logo {
@@ -198,7 +198,7 @@ MENU
               padding-left: 1rem;
           }
           #menu li a:hover{
-              color: #d80019 ;
+              color: #A40007 ;
           }
 
   /* Estilos #nav-mobile y lo ocultamos */
@@ -262,7 +262,7 @@ IMG
 .img-cover {
   background-image: url(../img/cover.png);
   display: inline-block;
-  border: .1rem solid #d80019 ;
+  border: .1rem solid #A40007 ;
 }
 
 .img-aplication {
@@ -292,7 +292,7 @@ EVENTOS
 
 .eventos span {
   width: 4.375rem;
-  border-bottom: thin solid #d80019 ;
+  border-bottom: thin solid #A40007 ;
   display:block;
 }
 
@@ -319,7 +319,7 @@ EVENTOS
 	font-weight: 600;
 	width: 9.0625rem;
 	height: 3.75rem;
-	background: #d80019 ;
+	background: #A40007 ;
 	padding: 0.7rem;
   display: inline-block;
 	text-align: center;
@@ -379,7 +379,7 @@ NOTICIAS
   text-align: center;
   padding: .3em;
   margin-top: 1.5625rem;
-  background: #d80019 ;
+  background: #A40007 ;
 }
 
 .noticia-mas {
@@ -394,7 +394,7 @@ NOTICIAS
   margin-left: 17.7rem;
   margin-top: 2rem;
   margin-bottom: 3.125rem;
-  background: #d80019 ;
+  background: #A40007 ;
 }
 
 /**************************************
@@ -437,7 +437,7 @@ FOOTER
 
 .info-footer {
   color: white;
-  background: #d80019 ;
+  background: #A40007 ;
 }
 
 .copy-footer {
@@ -695,7 +695,7 @@ RESPONSIVE
                   line-height: normal;
               }
               #menu li a:hover{
-                color: #d80019 ;
+                color: #A40007 ;
               }
 
       /* Agregamos una animación al despligue del menú */
