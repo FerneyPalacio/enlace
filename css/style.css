@@ -139,6 +139,7 @@ RADIO
 }
 
 .online-app {
+  margin-left: 30%;
   margin-top: 1.25rem;
   background: url(../img/online-app.png) no-repeat 0 0;
   width: 53.75rem;
