@@ -1,6 +1,10 @@
 /*********************
 COLOR
+<<<<<<< HEAD
 Color red #a40007
+=======
+Color red #e2001a - #d80019 - #cb0017 #A40007
+>>>>>>> origin/gh-pages
 Color black #03050f
 Color text #58595b
 *********************/
@@ -162,7 +166,7 @@ MENU
 }
 
 .selectd {
-  color: #d80019 ;
+  color: #A40007 ;
 }
 
 #logo {
@@ -193,8 +197,12 @@ MENU
               padding-left: .80rem;
           }
           #menu li a:hover{
+<<<<<<< HEAD
               color: #d80019 ;
               font-weight: bold;
+=======
+              color: #A40007 ;
+>>>>>>> origin/gh-pages
           }
 
   /* Estilos #nav-mobile y lo ocultamos */
@@ -263,6 +271,11 @@ IMG
 
 .img-cover {
   background-image: url(../img/cover.png);
+<<<<<<< HEAD
+=======
+  display: inline-block;
+  border: .1rem solid #A40007 ;
+>>>>>>> origin/gh-pages
 }
 
 .img-aplication {
@@ -292,7 +305,7 @@ EVENTOS
 
 .eventos span {
   width: 4.375rem;
-  border-bottom: thin solid #d80019 ;
+  border-bottom: thin solid #A40007 ;
   display:block;
 }
 
@@ -322,11 +335,19 @@ EVENTOS
 	color: white;
 	font-size: 1.625em;
 	font-weight: 600;
+<<<<<<< HEAD
 	width: 10.625rem;
   font-family: 'Montserrat', sans-serif;
 	height: 3.125rem;
 	background: #a40007 ;
 	padding: .625rem 0;
+=======
+	width: 9.0625rem;
+	height: 3.75rem;
+	background: #A40007 ;
+	padding: 0.7rem;
+  display: inline-block;
+>>>>>>> origin/gh-pages
 	text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -371,7 +392,19 @@ NOTICIAS
 
 .noticia-fragmento {
   margin-top: .9rem;
+<<<<<<< HEAD
   line-height: 1.5;
+=======
+}
+
+.noticia-button {
+  color: white;
+  width: 6.25rem;
+  text-align: center;
+  padding: .3em;
+  margin-top: 1.5625rem;
+  background: #A40007 ;
+>>>>>>> origin/gh-pages
 }
 
 .noticia-mas {
@@ -386,7 +419,7 @@ NOTICIAS
   margin-left: 17.7rem;
   margin-top: 2rem;
   margin-bottom: 3.125rem;
-  background: #d80019 ;
+  background: #A40007 ;
 }
 
 /**************************************
@@ -456,7 +489,11 @@ FOOTER
 
 .info-footer {
   color: white;
+<<<<<<< HEAD
   background: #a40007 ;
+=======
+  background: #A40007 ;
+>>>>>>> origin/gh-pages
 }
 
 .copy-footer {
@@ -768,7 +805,7 @@ RESPONSIVE
                   line-height: normal;
               }
               #menu li a:hover{
-                color: #d80019 ;
+                color: #A40007 ;
               }
 
       /* Agregamos una animación al despligue del menú */
