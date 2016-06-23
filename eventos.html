@@ -5,7 +5,7 @@
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="UTF-8">
-    <title>Programación Enlacehiphop | Emisora online</title>
+    <title>Enlacehiphop | Emisora online</title>
 
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -15,8 +15,8 @@
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://file.myfontastic.com/WMxEd8vqapyHs4cSZtCPbh/icons.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,700,300' rel='stylesheet' type='text/css'>
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -48,27 +48,15 @@
          <section class="contact-top">
             <!-- CONTACT TOP NUMERO
            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-           <article class="contact-number">
+           <article class="contact-social-top">
              <p class="mobile">
-               <i class="icon-mobile"></i>
-             </p>
-             <p class="numero">
-               <a href="tel:+573002697836">300 269 78 36</a>
-             </p>
-           </article>
-            <!-- CONTACT TOP REDES
-           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-           <article class="contact-follow">
-             <p class="follow">
-               Síguenos en:
+               <a href="https://twitter.com/enlacehiphop" target="_blank"><i class="fa fa-twitter"></i></a>
+               <a href="https://www.facebook.com/EnlaceHipHop/" target="_blank"><i class="fa fa-facebook"></i></a>
+               <a href="https://www.instagram.com/enlacehiphop/" target="_blank"><i class="fa fa-instagram"></i></a>
              </p>
              <p class="redes">
-               <a href="https://www.facebook.com/EnlaceHipHop/" target="_blank"><i class="icon-facebook"></i></a>
-               <a href="https://www.instagram.com/enlacehiphop/" target="_blank"><i class="icon-instagram"></i></a>
-               <a href="http://tunein.com/radio/Enlace-880-FM-s102268/" target="_blank"> <i class="icon-tunein"></i></a>
-               <a href="https://twitter.com/enlacehiphop" target="_blank"><i class="icon-twitter"></i></a>
+               <a href="http://tunein.com/radio/Enlace-880-FM-s102268/" target="_blank"> <i class="fa fa-search"></i></a>
              </p>
-
            </article>
          </section>
         </div>
@@ -77,29 +65,40 @@
       <!-- RADIO
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <div class="main-radio">
-        <a href="#">
           <section class="wrapper">
-            <!-- TEXT RADIO AUDIO EN VIVO
-            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <article class="audio-online">
-              <p>
-                Audio en vivo
-              </p>
-            </article>
-            <!-- TEXT RADIO ESCUCHAR AHORA
-            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <article class="listen-now">
-              <p>
-                !Escuchar ahora!
-              </p>
-            </article>
-            <!-- FONDO RADIO ONLINE
-            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <a href="radio.html" class="popup">
+              <div>
+                <!-- TEXT RADIO AUDIO EN VIVO
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <article class="audio-online">
+                  <p>
+                    Audio en vivo
+                  </p>
+                </article>
+                <!-- TEXT RADIO ESCUCHAR AHORA
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <article class="listen-now">
+                  <p>
+                    !Escuchar ahora!
+                  </p>
+                </article>
+                <!-- FONDO RADIO ONLINE
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <div class="online-hi">
+                  <figure class="online-back"></figure>
+                </div>
+              </div>
+            </a>
+          </section>
+      </div>
+      <div class="main-app">
+          <section class="wrapper">
+                <!-- FONDO RADIO ONLINE
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
             <div class="online-hi">
-              <figure class="online-back"></figure>
+              <figure class="online-app"></figure>
             </div>
           </section>
-        </a>
       </div>
 
 
@@ -115,16 +114,17 @@
           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
           <nav id="menu"><a class="nav-mobile" id="nav-mobile" href="#"></a>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html" class="selectd">Inicio</a></li>
                 <li><a href="programacion.html">Programación</a></li>
                 <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="online.html">Al aire</a></li>
-                <li><a href="eventos.html" class="selectd">Eventos</a></li>
+                <li><a href="radio.html" class="popup">Al aire</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
           </nav>
         </div>
       </div>
+    </header>
 
     <!-- -CONTENIDO
     ––––––––––––––––––––––––––––––––––––––––––––––––––  -->
@@ -141,8 +141,8 @@
 
             <!-- EVENTO_1
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <section class="event">
-              <a href=""><img src="img/evento_1.png" alt="" class="cover-image image"></a>
+            <section class="event event-pro">
+              <a href="evento.html"><img src="img/evento_1.png" alt="" class="cover-image image"></a>
               <article class="fecha">
                 <p>
                   Julio 16
@@ -179,10 +179,12 @@
         <aside class="main-aside">
             <!-- CANCIONES_ASIDE
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <header class="eventos eventos-p">
+            <header class="eventos">
               <h2>Canciones Nuevas<span></span></h2>
             </header>
             <section class="song">
+              <!-- CANCION UNO
+              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
               <section class="nueva-cancion">
                 <figure class="img-cover cover"></figure>
                 <article class="name-song">
@@ -191,6 +193,8 @@
                   </p>
                 </article>
               </section>
+              <!-- CANCION DOS
+              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
               <article class="nueva-cancion">
                 <figure class="img-cover cover"></figure>
                 <article class="name-song">
@@ -199,6 +203,18 @@
                   </p>
                 </article>
               </article>
+              <!-- CANCION TRES
+              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+              <article class="nueva-cancion">
+                <figure class="img-cover cover"></figure>
+                <article class="name-song">
+                  <p>
+                    Panda <br>>Designer
+                  </p>
+                </article>
+              </article>
+              <!-- CANCION CUATRO
+              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
               <article class="nueva-cancion">
                 <figure class="img-cover cover"></figure>
                 <article class="name-song">
@@ -210,62 +226,77 @@
             </section>
             <!-- EVENTOS_ASIDE
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <!-- <section> -->
               <header class="eventos">
                 <h2>Eventos <span></span></h2>
               </header>
               <section class="main-events">
+                <!-- EVENTO UNO
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
                 <section class="event-aside">
                   <a href="evento.html"><figure class="img-event image"></figure></a>
-                  <article class="fecha">
+                  <article class="date-aside">
+                    <h3>Julio 16</h3>
                     <p>
-                      Mayo 25
-                    </p>
-                  </article>
-                  <article class="name">
-                    <p>
-                      Mother's Day Good Music
+                      Ocho Lunas tour
                     </p>
                   </article>
                 </section>
+
+                <!-- EVENTO DOS
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
                 <section class="event-aside">
-                  <figure class="img-events image"></figure>
-                  <article class="fecha">
+                  <a href="evento.html"><figure class="img-event image"></figure></a>
+                  <article class="date-aside">
+                    <h3>Julio 16</h3>
                     <p>
-                      Mayo 25
-                    </p>
-                  </article>
-                  <article class="name">
-                    <p>
-                      Concierto en Medellín
+                      Ocho Lunas tour
                     </p>
                   </article>
                 </section>
+
               </section>
-            <!-- </section> -->
-            <section class="main-noticias noticias-p">
+
+              <!-- NOTICIAS - ASIDE
+              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <section class="main-noticias">
               <header class="eventos">
                 <h2>Noticias <span></span></h2>
               </header>
-              <!-- NOTICIA_ASIDE
-              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-              <section class="noticia">
-                <a href="noticia.html"><figure class="img-noticia image"></figure></a>
-                <article class="noticia-text">
-                  <a href="noticia.html"><h3>Michael Jordan's Son Is Opening His Own Sneaker Store</h3></a>
-                  <article class="noticia-fragmento">
+
+
+              <section class="main-events">
+                <!-- NOTICIA UNO - ASIDE
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <section class="event-aside">
+                  <a href="evento.html"><figure class="img-noticia image"></figure></a>
+                  <article class="date-aside date-noticia">
+                    <h3>50 Cent Reportedly Donates $100,000 </h3>
                     <p>
-                      Michael Jordan’s son may not have succeeded in following his father’s footsteps to the NBA, but he still has the sneaker industry.
+                      If you've been keeping up with the news on the site, you're probably aware that 50 Cent found himself in hot water after he...
                     </p>
                   </article>
-                  <article class="noticia-button">
-                    <a href="noticia.html"><p>
-                      Leer más...
-                    </p></a>
+                </section>
+
+                <!-- NOTICIA DOS - ASIDE
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <section class="event-aside">
+                  <a href="evento.html"><figure class="img-noticia image"></figure></a>
+                  <article class="date-aside date-noticia">
+                    <h3>Michael Jordan's Son </h3>
+                    <p>
+                      Michael Jordan’s son may not have succeeded in, but he...
+                    </p>
                   </article>
-                </article>
+                </section>
               </section>
           </section>
+
+          <!-- PLUGIN FACEBOOK
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <section class="fa-plugin">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FEnlaceHipHop%2F&tabs=timeline&width=360&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1641865826040330" marginwidth="45" width="360" height="500"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          </section>
+
         </aside>
       </section>
   </section>
@@ -284,39 +315,39 @@
           </article>
           <article class="enlace-follow">
             <p>
-              <a href="https://www.facebook.com/EnlaceHipHop/" target="_blank"><i class="icon-facebook"></i></a>
-              <a href="https://www.instagram.com/enlacehiphop/" target="_blank"><i class="icon-instagram"></i></a>
-              <a href="http://tunein.com/radio/Enlace-880-FM-s102268/" target="_blank"> <i class="icon-tunein"></i></a>
-              <a href="https://twitter.com/enlacehiphop" target="_blank"><i class="icon-twitter"></i></a>
+              <a href="https://twitter.com/enlacehiphop" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/EnlaceHipHop/" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/enlacehiphop/" target="_blank"><i class="fa fa-instagram"></i></a>
+
             </p>
           </article>
         </section>
         <div class="enlace contacto-footer">
           <h3>Contacto</h3>
           <p class="contact-text">
-            <i class="icon-location"></i> Cra 45A  #56 - 95 Medellín <br> <i class="icon-phone"></i> (574) 2654897 <br> <i class="icon-paper-plane"></i> enlace880@yahoo.com <br> <a href="tel:+573002697836"><i class="icon-mobile"></i> (57) 300 269 78 36 </a><br> <i class="icon-clock"></i> Lunes - Sabado 8:00 - 22:00
+            <i class="fa fa-location-arrow"></i> Cra 45A  #56 - 95 Medellín <br> <i class="fa fa-phone"></i> (574) 2654897 <br> <i class="fa fa-paper-plane"></i> enlace880@yahoo.com <br> <i class="fa fa-clock-o"></i> Lunes - Sabado 8:00 - 22:00
           </p>
         </div>
         <div class="nav contacto-footer">
           <h3>Links</h3>
           <nav class="nav-footer contact-text">
-            <a href="index.html">Inicio</a>
-            <a href="programacion.html">Programación</a>
-            <a href="noticias.hmtl">Noticias</a>
-            <a href="online.html">Al aire</a>
-            <a href="eventos.html" class="select">Eventos</a>
+            <a href="index.html" class="select">Inicio</a>
+            <a href="programacion.html">Programacion</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="radio.html" class="popup">Al aire</a>
+            <a href="eventos.html">Eventos</a>
             <a href="#">Contacto</a>
           </nav>
         </div>
         <div class="enlace contacto-footer app-footer">
           <h3>Aplicación</h3>
-          <a href="https://play.google.com/store/apps/details?id=com.redpulsohd.EnlaceHipHop" target="_blank"><img src="img/Aplicacion.png" alt="" class="img-aplication"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.redpulsohd.EnlaceHipHop&hl=es" target="_blank"><img src="img/Aplicacion.png" alt="" class="img-aplication"></a>
         </div>
       </section>
       <section class="clear copy-footer">
         <div class="wrapper">
           <p>
-            ENLACEHIPHOP &copy; 2016 | TODOS LOS DERECHOS RESERVADOS | MEDELLÍN - COLOMBIA - SURAMERICA
+          ENLACEHIPHOP &copy; 2016 | TODOS LOS DERECHOS RESERVADOS | MEDELLÍN - COLOMBIA - SURAMERICA
           </p>
         </div>
       </section>
@@ -326,5 +357,6 @@
     <script src="js/functions.js"></script>
     <script src="js/rem.min.js" ></script>
 
+    </script>
   </body>
-</html>
+  </html>

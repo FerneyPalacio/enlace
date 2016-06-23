@@ -1,6 +1,6 @@
 /*********************
 COLOR
-Color red #e2001a - #d80019 - #cb0017
+Color red #a40007
 Color black #03050f
 Color text #58595b
 *********************/
@@ -15,7 +15,7 @@ GENERAL
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   background: #03050f;
   font-size: 1em;
 }
@@ -69,50 +69,32 @@ LAYOUT
 TOP HEADER
 ***************************************/
 
-
 .top-header {
   max-width: 100%;
   height: 2.1875rem;
-  background: #d80019 ;
+  background: #a40007;
 }
 
 /**************************************
 CONTACT TOP
 **************************************/
+
 .contact-top {
-  display: inline-block;
-  width: 100%;
-}
-
-.contact-number {
-  display: inline-block;
-}
-
-.numero {
-  float: right;
-  padding: .4rem 0 0;
-}
-
-.contact-follow {
-  float: right;
-}
-
-.follow {
-  display: inline-block;
+  font-size: 1.6em;
   color: white;
-  padding: .4rem 0 0;
+}
+
+.mobile {
+  display: inline-block;
+
+}
+
+.mobile a {
+  padding-left: .4rem;
 }
 
 .redes {
-  font-size: 1.5em;
   float: right;
-  margin-left: .4rem;
-  margin-top: .3rem;
-}
-.mobile {
-  font-size: 1.7em;
-  color: white;
-  display: inline-block;
 }
 
 /**************************************
@@ -125,21 +107,22 @@ RADIO
 }
 
 .audio-online {
-	font-size: 2.750em;
+  margin-top: 1.2rem;
+	font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	letter-spacing: .87rem;
 	position: absolute;
-	margin-left: 7.5rem;
+	margin-left: 8.125rem;
 }
 
 .listen-now {
 	color: #d80019 ;
 	font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 1.2rem;
 	position: absolute;
-	margin-left: 4.0625rem;
-	margin-top: 2.9rem;
+	margin-left: 8.125rem;
+	margin-top: 3.8rem;
 }
 
 .online-hi {
@@ -147,13 +130,26 @@ RADIO
 }
 
 .online-back {
+  margin-top: 1.25rem;
   background: url(../img/online.png) no-repeat 0 0;
   width: 53.75rem;
   height: 4.5625rem;
-  margin-left: 16.8rem;
+  margin-left: 10rem;
   margin-bottom: .3rem;
 }
 
+.online-app {
+  margin-top: 1.25rem;
+  background: url(../img/online-app.png) no-repeat 0 0;
+  width: 53.75rem;
+  height: 4.5625rem;
+}
+
+.main-app {
+  border-bottom: 3px solid #d80019 ;
+  text-align: center;
+  display: none;
+}
 /**************************************
 MENU
 **************************************/
@@ -193,12 +189,12 @@ MENU
           /* Damos estilo a nuestros enlaces */
           #menu li a{
               display: block;
-              font-size: 1.063em;
               line-height: 3.75rem;
-              padding-left: 1rem;
+              padding-left: .80rem;
           }
           #menu li a:hover{
               color: #d80019 ;
+              font-weight: bold;
           }
 
   /* Estilos #nav-mobile y lo ocultamos */
@@ -223,6 +219,7 @@ HERO
 
 #slidy-container {
   width: 100%;
+  height: 31.25rem;
   margin: 0 auto;
   box-shadow: 0 0 12px rgba(0,0,0,0.4);
 }
@@ -239,6 +236,9 @@ IMG
 
 .img-event {
 	background-image: url(../img/evento_1.png);
+  width: 9.375rem;
+  height: 8.75rem;
+  display: inline-block;
 }
 
 .img-events {
@@ -247,6 +247,9 @@ IMG
 
 .img-noticia {
 	background-image: url(../img/noticia_1.png);
+  width: 9.375rem;
+  height: 8.75rem;
+  display: inline-block;
 }
 
 .img-noticias {
@@ -256,13 +259,10 @@ IMG
 .cover {
   width: 8.125rem;
   height: 7.25rem;
-  vertical-align: bottom;
 }
 
 .img-cover {
   background-image: url(../img/cover.png);
-  display: inline-block;
-  border: .1rem solid #d80019 ;
 }
 
 .img-aplication {
@@ -284,7 +284,7 @@ EVENTOS
 
 .eventos{
   color: white;
-  font-size: 1.22em;
+  font-size: 1.2em;
   margin-top: 5rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -297,13 +297,18 @@ EVENTOS
 }
 
 .eventos h2 {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .event {
-  margin-right: 1.875rem;
   margin-top: 2.8125rem;
+  background: white;
+  text-align: center;
   float: left;
+}
+
+.event-pro {
+  margin-right: 1.875rem;
 }
 
 .event:nth-child(odd),
@@ -317,25 +322,22 @@ EVENTOS
 	color: white;
 	font-size: 1.625em;
 	font-weight: 600;
-	width: 9.0625rem;
-	height: 3.75rem;
-	background: #d80019 ;
-	padding: 0.7rem;
-  display: inline-block;
+	width: 10.625rem;
+  font-family: 'Montserrat', sans-serif;
+	height: 3.125rem;
+	background: #a40007 ;
+	padding: .625rem 0;
 	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .name {
-	color: #58595b;
+	color: #101010;
 	font-size: 1.625rem;
 	font-weight: 600;
-  line-height: 1em;
-	display: inline-block;
-	width: 13.44rem;
-	height: 3.75rem;
-	background: white;
-  padding-left: .3rem;
-  position: absolute;
+  padding-bottom: 1.5rem;
+  display: inline-block;
 }
 
 /**************************************
@@ -349,37 +351,27 @@ NOTICIAS
   float: left;
 }
 
-/*.noticia:nth-child(odd) {
-  margin-right: 0;
-}*/
-
 .noticia-text {
-  color: black;
-  font-weight: 600;
+  color: #03050f;
 	width: 22.5rem;
 	background: white;
-  padding: 1.2rem;
+  padding: 2rem;
 }
 
 .noticia-text a h3 {
-  color: black;
+  color: #03050f;
+
+
 }
 
 .noticia-text h3 {
-  font-size: 1.250em;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
 }
 
 .noticia-fragmento {
   margin-top: .9rem;
-}
-
-.noticia-button {
-  color: white;
-  width: 6.25rem;
-  text-align: center;
-  padding: .3em;
-  margin-top: 1.5625rem;
-  background: #d80019 ;
+  line-height: 1.5;
 }
 
 .noticia-mas {
@@ -404,30 +396,57 @@ ASIDE
 
 .song {
   margin-top: 2.8125rem;
-  display: inline-block;
+  background: white;
+  text-align: center;
 }
 
 .nueva-cancion {
-  margin-bottom: 1.5625rem;
-}
-
-.nueva-cancion:nth-child(3) {
-  margin-bottom: 0;
+  display: inline-block;
+  padding: 0.9375rem;
 }
 
 .name-song {
-  color: white;
-  font-size: 1.563rem;
   font-weight: bold;
-  text-transform: uppercase;
-  margin-top: 1.4rem;
-  margin-left: 0.9375rem;
-  float: right;
+  margin-top: 0.625rem;
 }
 
 .event-aside {
   margin-top: 2.8125rem;
-  float: left;
+}
+
+.date-aside {
+  background: white;
+  font-size: 1.23em;
+  font-weight: 400;
+  padding: 1.25rem;
+  width: 12rem;
+  height: 8.75rem;
+  float: right;
+}
+
+.date-aside h3 {
+  color: #d80019;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.date-aside p,
+.date-noticia p {
+  margin-top: 0.625rem;
+}
+
+.date-noticia {
+  font-size: 1em;
+  font-weight: 400;
+  padding-top: .625rem;
+}
+
+.date-noticia h3 {
+  color: #03050f;
+}
+
+.fa-plugin iframe{
+  margin-top: 5rem;
+  margin-bottom: 2.8125rem;
 }
 
 /**************************************
@@ -437,7 +456,7 @@ FOOTER
 
 .info-footer {
   color: white;
-  background: #d80019 ;
+  background: #a40007 ;
 }
 
 .copy-footer {
@@ -445,6 +464,11 @@ FOOTER
   background: #03050f;
   padding: 1.2rem;
 }
+
+.copy-footer p {
+  font-size: 60%;
+}
+
 
 /**************************************
 ENLACE FOOTER
@@ -493,12 +517,12 @@ ENLACE FOOTER
 }
 
 .nav-footer a:hover {
-  color: black;
+  color: #03050f;
   font-weight: bold;
 }
 
 .select {
-  color: black;
+  color: #03050f;
   font-weight: bold;
 }
 
@@ -520,6 +544,7 @@ CLEAR FLOAT
 .clear {
   clear: both;
 }
+
 
 /*************************************
 PROGRAMACION PAGE
@@ -565,17 +590,53 @@ ONLINE PAGE
 
 #stream {
   width: 100%;
+  background: #03050f;
 }
 
 .stream-play {
-  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.stream-eventos {
+  margin-top: 0;
 }
 
 .stream-p {
-  width: 100%;
-  background: white;
-  padding: 1.25rem;
+  margin-top: 2rem;
+  display: inline-block;
 }
+
+.online-stream {
+  display: inline-block;
+  width: 20rem;
+  background: white;
+  padding: .3rem;
+}
+.store {
+  float: right;
+  margin-left: 2rem;
+}
+
+.emisora-social {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.social-r  a{
+  padding-left: 1.2rem;
+}
+
+.rss-radio {
+  font-size: 2.2em;
+  color: black;
+  border-radius: 50%;
+  height: 3.125rem;
+  width: 3.125rem;
+  padding: .4rem;
+  background: white;
+}
+
 
 /*************************************
 RESPONSIVE
@@ -587,6 +648,9 @@ RESPONSIVE
     max-width: 48.125rem;
   }
 
+  #slidy-container {
+    height: auto;
+  }
 
   .audio-online {
   	font-size: 2.2em;
@@ -640,7 +704,7 @@ RESPONSIVE
 @media only screen and (max-width: 768px) {
 
   .wrapper {
-    width: 100%;
+    width: 95%;
     max-width: 100%;
   }
 
@@ -662,6 +726,15 @@ RESPONSIVE
   .follow {
     display: none;
   }
+
+  .main-radio {
+    display: none;
+  }
+
+  .main-app {
+    display: block;
+  }
+
 
   #logo {
     height: 3.5rem;
@@ -708,6 +781,7 @@ RESPONSIVE
           -o-transition: max-height .4s;
           transition: max-height .4s;
       }
+
 
   .event {
     margin-right: 0;
@@ -780,45 +854,17 @@ RESPONSIVE
 
 }
 
+@media only screen and (max-width: 718px) {
 
-
-@media only screen and (max-width: 554px) {
-  .audio-online {
-    letter-spacing: .5rem;
-  }
-  .listen-now {
-    letter-spacing: .9rem;
-  }
-  .online-back {
-    margin-left: 4.5rem;
+  .store {
+    float: none;
+    margin-top: 2rem;
+    margin-left: 0;
   }
 }
-
 @media only screen and (max-width: 480px) {
-  .audio-online {
-    letter-spacing: .2rem;
-  }
-  .listen-now {
-    letter-spacing: .4rem;
-  }
-  .online-back {
-    margin-left: .01rem;
-  }
 
   .eventos-p {
     font-size: 1em;
   }
-
-  .stream-p {
-    padding: .7rem;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .audio-online {
-    font-size: 1.8em;
-  }
-
-
-
 }
