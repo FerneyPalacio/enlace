@@ -242,6 +242,15 @@ IMG
 
 .img-event {
 	background-image: url(../img/evento_1.png);
+  background-position: center;
+  width: 9.375rem;
+  height: 8.75rem;
+  display: inline-block;
+}
+
+.img-event1 {
+	background-image: url(../img/evento_2.png);
+  background-position: center;
   width: 9.375rem;
   height: 8.75rem;
   display: inline-block;
@@ -253,6 +262,14 @@ IMG
 
 .img-noticia {
 	background-image: url(../img/noticia_1.png);
+  background-position: center;
+  width: 9.375rem;
+  height: 8.75rem;
+  display: inline-block;
+}
+.img-noticia1 {
+	background-image: url(../img/noticia_3.png);
+  background-position: center;
   width: 9.375rem;
   height: 8.75rem;
   display: inline-block;
@@ -399,6 +416,9 @@ NOTICIAS
 ASIDE
 **************************************/
 
+.titulo {
+  margin-top: 2rem;
+}
 
 .song {
   margin-top: 2.8125rem;
@@ -424,7 +444,7 @@ ASIDE
   background: white;
   font-size: 1.23em;
   font-weight: 400;
-  padding: 1.25rem;
+  padding: .6rem;
   width: 12rem;
   height: 8.75rem;
   float: right;
@@ -432,7 +452,6 @@ ASIDE
 
 .date-aside h3 {
   color: #d80019;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .date-aside p,
@@ -441,7 +460,7 @@ ASIDE
 }
 
 .date-noticia {
-  font-size: 1em;
+  font-size: .9em;
   font-weight: 400;
   padding-top: .625rem;
 }
@@ -450,11 +469,18 @@ ASIDE
   color: #03050f;
 }
 
-.fa-plugin iframe{
-  margin-top: 5rem;
+.fa-plugin {
   margin-bottom: 2.8125rem;
+  margin-top: 2rem;
 }
 
+.fa-wid iframe{
+  margin-top: 2rem;
+}
+
+.noticia-aside {
+  margin-bottom: 2rem;
+}
 /**************************************
 FOOTER
 **************************************/
@@ -488,7 +514,7 @@ ENLACE FOOTER
 
 .enlace-text {
   margin-top: 1.25rem;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 
 .enlace-follow {
@@ -524,7 +550,7 @@ ENLACE FOOTER
 
 .nav-footer a:hover {
   color: #03050f;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .select {
@@ -588,6 +614,11 @@ NOTICIAS PAGE
 
 .noticia-next {
   width: 100%;
+}
+
+.titulo-noticia {
+  color: white;
+  font-size: 2em;
 }
 
 /*************************************
@@ -719,6 +750,7 @@ RESPONSIVE
 
   .enlace-text {
     margin-right: 0;
+    text-align: justify;
   }
 
   .app-footer {
